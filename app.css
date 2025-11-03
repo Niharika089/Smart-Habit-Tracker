@@ -1,0 +1,29 @@
+
+:root{
+  --bg:#f8f5ff; --card:#fff; --text:#1a1a1a; --accent:#a855f7; --accent-2:#ec4899; --muted:#6b7280;
+}
+[data-theme="dark"]{ --bg:#120817; --card:#1b1226; --text:#f3e8ff; --accent:#c084fc; --accent-2:#f472b6; --muted:#bfb0c9; }
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;background:var(--bg);color:var(--text);transition:background .2s,color .2s}
+.app{max-width:1100px;margin:22px auto;padding:18px}
+.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.brand{font-weight:800;font-size:22px;background:linear-gradient(90deg,var(--accent),var(--accent-2));-webkit-background-clip:text;color:transparent}
+.nav{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.btn{background:var(--accent);color:#fff;padding:8px 12px;border-radius:10px;border:none;cursor:pointer;font-weight:600;transition:all .18s}
+.btn:hover{transform:translateY(-2px);background:var(--accent-2)}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(0,0,0,0.06)}
+.topbar{display:flex;gap:10px;align-items:center}
+.container{display:grid;grid-template-columns:260px 1fr;gap:16px}
+.card{background:var(--card);padding:14px;border-radius:12px;box-shadow:0 8px 30px rgba(15,10,20,0.06)}
+.input{width:100%;padding:8px;border-radius:8px;border:1px solid #eee;margin-top:8px}
+.habit{display:flex;justify-content:space-between;align-items:center;padding:8px;border-radius:8px;background:linear-gradient(90deg,rgba(168,85,247,0.04),rgba(236,72,153,0.04));margin-bottom:8px}
+.small{font-size:13px;color:var(--muted)}
+.kpi{display:flex;gap:12px}
+.kpi .item{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:white;padding:10px;border-radius:10px;min-width:120px;text-align:center}
+.canvas{width:100%;height:160px;background:linear-gradient(180deg,rgba(0,0,0,0.02),transparent);border-radius:8px;padding:8px}
+.center{text-align:center}
+.footer{display:none}
+.link{color:var(--accent);cursor:pointer}
+.badge{background:var(--accent-2);color:#fff;padding:4px 8px;border-radius:999px}
+.toggle{display:flex;align-items:center;gap:6px}
+`
