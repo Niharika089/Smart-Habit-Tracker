@@ -29,7 +29,7 @@ Smart Habit Tracker is a frontend-only website that allows users to:
 3. Enjoy using the app — no setup required!
 
 ## 👩‍💻 Developers
-**K.Niharika
-M.Yashaswini
+**K.Niharika,
+M.Yashaswini,
 Vishnu Thanmaye**  
 CSE - 3rd Year, MVSR College
